@@ -4,13 +4,17 @@
 # Lt Lucas Mireles
 
 import socket 
+import sys
+from scapy.all import *
+import time
+import random
 
-IP = "hitchhikers.m4i.local"
-PORT = 4242
-sock = socket.socket(socket.	AF_INET, socket.SOCK_STREAM)
-sock.connect((IP,PORT))
-message = "\xcc" + "What is the answer to the Ultimate Question of Life, The Universe, and Everything?"
-sock.send(message)
-
-sock.close()
-
+dest_ip = "10.12.1.1"
+dest_port = 1337
+source_ip = "10.204.0.67"
+message = "Deactivate!!"
+packets = []
+for i in range (5018):
+	packets.append( IP(dst=dest_ip,src=source_ip)/UDP(dport=dest_port, sport=random.randint(1024,65535))/message)
+	
+send(packets, inter = 0)
