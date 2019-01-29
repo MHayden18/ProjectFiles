@@ -1,0 +1,3 @@
+Peter:x:503:503:Peter Griffin:/home/Peter:/bin/bash
+Lois:x:504:504:Lois Griffin:/home/Lois:/bin/bash
+Chris:x:505:505:Chris Griffin:/home/Chris:/bin/bash

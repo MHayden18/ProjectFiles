@@ -1,0 +1,3 @@
+Meg:$1$/KLKF6n2$DEl.XqAfxrGHZdvbZZE3K/:506:506:Meg Griffin:/home/Meg:/bin/bash
+Stewie:$1$HbHpkeCE$hYu3bgqIMqx0gWrtbgbpk.:507:507:Stewie Griffin:/home/Stewie:/bin/bash
+Brian:$1$bP9UymfP$3z7qcagWQVZ5y8cgf3b.m/:508:508:Brian Griffin:/home/Brian:/bin/bash

@@ -1,0 +1,4 @@
+Meg:x:506:506:Meg Griffin:/home/Meg:/bin/bash
+Stewie:x:507:507:Stewie Griffin:/home/Stewie:/bin/bash
+Brian:x:508:508:Brian Griffin:/home/Brian:/bin/bash
+
