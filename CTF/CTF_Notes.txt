@@ -1,0 +1,25 @@
+Final Report Notes:
+	- Files --> Search security/information/passwords to find additional info (not just flag files).
+	- Lifelines --> ask if you need help, but not free
+	- Send questions to mullins@mail.m4i.local
+	
+	- "Profitable" (maybe hint?)
+	
+	- Many passwords are not crackable or guessed --> not cracked in 1 hour, come back later using additional information
+		- Recon in other files
+		- Company in Houston
+
+	- All targets have private IP addresses
+	- Remember to delete john.pot
+	
+	-All flags start with flagX
+	
+	- Report:
+		1) Cover page (creative team name)
+		2) Network map of M4I
+		3) Section for each division we attacked
+			- Discuss in the order listed in the _teamstatus spreadsheet
+		4) Supplemental questions
+		5) Source code for anything we wrote/used
+		6) General Observations
+			- Include the time log
