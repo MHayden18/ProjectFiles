@@ -23,3 +23,14 @@ Final Report Notes:
 		5) Source code for anything we wrote/used
 		6) General Observations
 			- Include the time log
+			
+Business Card Stuff:
+	- Sneakers
+	- Toomanysecrets!
+	- aHR0cDovL21haW4ubTRpLmxvY2Fs==
+	- Zero -> 0
+	
+Private IP Addresses:
+10.0.0.0 	- 10.255.255.255
+172.16.0.0 	- 172.31.255.255
+192.168.0.0 	- 192.168.255.255
