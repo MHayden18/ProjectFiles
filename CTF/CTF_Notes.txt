@@ -34,3 +34,19 @@ Private IP Addresses:
 10.0.0.0 	- 10.255.255.255
 172.16.0.0 	- 172.31.255.255
 192.168.0.0 	- 192.168.255.255
+
+General Notes: 13 February
+	- Ran nmap scan of 192.168.x.x sending output to a files
+	- Searched file for M4I
+	- 192.168.2.1 - Music
+		- SQL Injection --> "" or 1=1
+
+		- Nmap IntenseScan of Target
+			- Linux Machine
+			- Users:  Penny, pinkfloyd, doors
+			- Flag 5 found, flag6 in root
+			
+			
+			
+	- 192.168.3.1 - Movies server, needs specific user agent
+	- 
