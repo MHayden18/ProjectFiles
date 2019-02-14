@@ -50,3 +50,17 @@ General Notes: 13 February
 			
 	- 192.168.3.1 - Movies server, needs specific user agent
 	- 
+	- 192.168.2.101 - M4I Management
+	
+	- 192.168.3.101 - M4I Military
+	
+	-192.168.3.201 - M4I Mitnick
+	
+	
+	
+	
+	
+	
+	
+	
+	
