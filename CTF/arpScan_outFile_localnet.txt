@@ -1,0 +1,62 @@
+Interface: eth0, datalink type: EN10MB (Ethernet)
+Starting arp-scan 1.9.5 with 2048 hosts (https://github.com/royhills/arp-scan)
+10.204.0.1	10:05:ca:f8:27:f0	Cisco Systems, Inc
+10.204.0.2	48:0f:cf:51:73:6a	Hewlett Packard
+10.204.0.3	48:0f:cf:5d:52:ac	Hewlett Packard
+10.204.0.5	00:0c:29:e3:f5:8c	VMware, Inc.
+10.204.0.6	48:0f:cf:51:73:7c	Hewlett Packard
+10.204.0.7	00:0c:29:58:c6:7d	VMware, Inc.
+10.204.0.8	48:0f:cf:5d:52:be	Hewlett Packard
+10.204.0.10	48:0f:cf:5d:52:b4	Hewlett Packard
+10.204.0.11	00:0c:29:27:e7:09	VMware, Inc.
+10.204.0.12	48:0f:cf:5d:52:8c	Hewlett Packard
+10.204.0.13	48:0f:cf:5d:52:c2	Hewlett Packard
+10.204.0.14	48:0f:cf:5d:53:02	Hewlett Packard
+10.204.0.15	48:0f:cf:5d:52:6a	Hewlett Packard
+10.204.0.16	48:0f:cf:5d:53:0e	Hewlett Packard
+10.204.0.17	00:0c:29:cc:b0:05	VMware, Inc.
+10.204.0.19	48:0f:cf:51:73:52	Hewlett Packard
+10.204.0.21	48:0f:cf:5d:52:c6	Hewlett Packard
+10.204.0.22	48:0f:cf:51:73:2e	Hewlett Packard
+10.204.0.23	48:0f:cf:50:38:cc	Hewlett Packard
+10.204.0.24	48:0f:cf:5d:50:aa	Hewlett Packard
+10.204.0.26	48:0f:cf:5d:52:c4	Hewlett Packard
+10.204.0.25	48:0f:cf:5d:50:ca	Hewlett Packard
+10.204.0.27	48:0f:cf:5d:50:0a	Hewlett Packard
+10.204.0.28	48:0f:cf:51:73:da	Hewlett Packard
+10.204.0.29	48:0f:cf:51:73:70	Hewlett Packard
+10.204.0.30	48:0f:cf:51:73:6c	Hewlett Packard
+10.204.0.31	48:0f:cf:51:73:74	Hewlett Packard
+10.204.0.32	48:0f:cf:50:19:7d	Hewlett Packard
+10.204.0.34	00:0c:29:47:d1:8b	VMware, Inc.
+10.204.0.35	48:0f:cf:50:19:83	Hewlett Packard
+10.204.0.36	48:0f:cf:5d:50:20	Hewlett Packard
+10.204.0.37	48:0f:cf:50:19:69	Hewlett Packard
+10.204.0.38	48:0f:cf:50:19:35	Hewlett Packard
+10.204.0.39	48:0f:cf:50:19:7b	Hewlett Packard
+10.204.0.40	48:0f:cf:5d:52:b6	Hewlett Packard
+10.204.0.41	48:0f:cf:54:a5:d5	Hewlett Packard
+10.204.0.43	00:0c:29:3f:ed:f2	VMware, Inc.
+10.204.0.44	00:0c:29:16:bf:b3	VMware, Inc.
+10.204.0.45	48:0f:cf:50:1a:00	Hewlett Packard
+10.204.0.46	00:0c:29:1f:30:6a	VMware, Inc.
+10.204.0.47	48:0f:cf:5d:50:dd	Hewlett Packard
+10.204.0.48	00:0c:29:78:dd:67	VMware, Inc.
+10.204.0.49	48:0f:cf:51:72:ea	Hewlett Packard
+10.204.0.50	48:0f:cf:5d:50:de	Hewlett Packard
+10.204.0.52	00:50:56:a9:b5:34	VMware, Inc.
+10.204.0.53	00:0c:29:b2:fe:e5	VMware, Inc.
+10.204.0.54	48:0f:cf:50:19:61	Hewlett Packard
+10.204.0.56	00:0c:29:6b:45:b8	VMware, Inc.
+10.204.0.62	10:05:ca:f8:27:f0	Cisco Systems, Inc
+10.204.0.63	00:0c:29:e1:b5:7d	VMware, Inc.
+10.204.0.64	00:0c:29:45:91:14	VMware, Inc.
+10.204.0.66	00:0c:29:75:79:4a	VMware, Inc.
+10.204.0.67	00:0c:29:3e:8f:b2	VMware, Inc.
+10.204.0.71	00:0c:29:0b:29:93	VMware, Inc.
+10.204.0.71	00:0c:29:0b:29:9d	VMware, Inc. (DUP: 2)
+10.204.0.74	00:0c:29:6f:96:85	VMware, Inc.
+10.204.0.76	00:0c:29:4b:5f:17	VMware, Inc.
+
+77 packets received by filter, 0 packets dropped by kernel
+Ending arp-scan 1.9.5: 2048 hosts scanned in 9.987 seconds (205.07 hosts/sec). 57 responded

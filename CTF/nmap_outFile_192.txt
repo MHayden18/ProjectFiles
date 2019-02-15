@@ -1,0 +1,269 @@
+Nmap scan report for 192.168.2.1
+Host is up (0.00060s latency).
+Not shown: 997 filtered ports
+PORT     STATE  SERVICE VERSION
+22/tcp   open   ssh     OpenSSH 6.1 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 ed:78:31:ec:2c:be:f9:d7:fa:57:09:74:08:cb:98:58 (DSA)
+|_  2048 1a:db:90:ca:14:41:60:01:ec:20:a4:8f:d1:5a:b3:f7 (RSA)
+80/tcp   open   http    Apache httpd 2.4.4 ((Fedora) PHP/5.4.12)
+|_http-favicon: Unknown favicon MD5: 27765384225F74776A03D24FFD879027
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: Apache/2.4.4 (Fedora) PHP/5.4.12
+|_http-title: Mullins Movies, Music and Machines Inc (M4I)
+1900/tcp closed upnp
+Device type: storage-misc|general purpose|load balancer|WAP|router
+Running (JUST GUESSING): Linux 2.6.X (95%), Netgear embedded (95%), F5 Networks embedded (90%), Ubiquiti embedded (90%), Linksys embedded (90%), Synology embedded (89%), F5 Networks TMOS 11.1.X (89%)
+OS CPE: cpe:/o:linux:linux_kernel:2.6 cpe:/h:netgear:readynas_3200 cpe:/o:linux:linux_kernel:2.6.32 cpe:/h:linksys:befw11s4 cpe:/h:synology:rt1900ac cpe:/o:f5:tmos:11.1 cpe:/o:linux:linux_kernel
+Aggressive OS guesses: Netgear ReadyNAS 3200 NAS device (Linux 2.6) (95%), Linux 2.6.32 (94%), Linux 2.6.11 - 2.6.18 (91%), F5 BIG-IP load balancer (90%), Ubiquiti WAP (Linux 2.6.32) (90%), Linksys BEFW11S4 WAP (90%), Synology RT1900ac router (89%), F5 3600 LTM load balancer (89%), HP P2000 MSA storage controller (87%), Netgear WNDAP660 WAP (Linux 2.6.36) (86%)
+No exact OS matches for host (test conditions non-ideal).
+Uptime guess: 3.285 days (since Sun Feb 10 09:47:39 2019)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=255 (Good luck!)
+IP ID Sequence Generation: All zeros
+
+TRACEROUTE (using port 1900/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.2.0
+2   1.06 ms 192.168.2.1
+
+
+OS CPE: cpe:/o:linux:linux_kernel:2.6 cpe:/h:netgear:readynas_3200 cpe:/o:linux:linux_kernel:2.6.32 cpe:/h:linksys:befw11s4 cpe:/h:synology:rt1900ac cpe:/o:f5:tmos:11.1 cpe:/h:netgear:wndap660
+Aggressive OS guesses: Netgear ReadyNAS 3200 NAS device (Linux 2.6) (95%), Linux 2.6.32 (93%), Linux 2.6.11 - 2.6.18 (91%), F5 BIG-IP load balancer (90%), Ubiquiti WAP (Linux 2.6.32) (90%), Linksys BEFW11S4 WAP (90%), Synology RT1900ac router (88%), F5 3600 LTM load balancer (88%), Netgear WNDAP660 WAP (Linux 2.6.36) (87%), HP P2000 MSA storage controller (86%)
+No exact OS matches for host (test conditions non-ideal).
+Uptime guess: 3.170 days (since Sun Feb 10 12:34:07 2019)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=255 (Good luck!)
+IP ID Sequence Generation: All zeros
+
+TRACEROUTE (using port 1900/tcp)
+HOP RTT     ADDRESS
+-   Hop 1 is the same as for 192.168.2.0
+2   1.07 ms 192.168.2.5
+
+
+Nmap scan report for 192.168.2.101
+Host is up (0.00059s latency).
+Not shown: 996 closed ports
+PORT    STATE SERVICE VERSION
+21/tcp  open  ftp     vsftpd 2.0.5
+| ftp-anon: Anonymous FTP login allowed (FTP code 230)
+|_drwxr-xr-x    2 0        0            4096 Aug 29  2007 pub
+| ftp-syst: 
+|   STAT: 
+| FTP server status:
+|      Connected to 10.204.0.60
+|      Logged in as ftp
+|      TYPE: ASCII
+|      No session bandwidth limit
+|      Session timeout in seconds is 300
+|      Control connection is plain text
+|      Data connections will be plain text
+|      At session startup, client count was 5
+|      vsFTPd 2.0.5 - secure, fast, stable
+|_End of status
+22/tcp  open  ssh     OpenSSH 4.7 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 b0:c5:83:02:64:26:38:7d:4d:43:a8:a6:6d:10:9b:ad (DSA)
+|_  2048 94:f4:fc:86:f2:55:ee:25:e6:cb:82:5a:1d:3a:54:03 (RSA)
+80/tcp  open  http    Apache httpd 2.2.6 ((Fedora))
+|_http-favicon: Unknown favicon MD5: 27765384225F74776A03D24FFD879027
+| http-methods: 
+|   Supported Methods: GET HEAD POST OPTIONS TRACE
+|_  Potentially risky methods: TRACE
+|_http-server-header: Apache/2.2.6 (Fedora)
+|_http-title: Mullins Movies, Music and Machines Inc (M4I) - Management Divi...
+111/tcp open  rpcbind 2-4 (RPC #100000)
+| rpcinfo: 
+|   program version   port/proto  service
+|   100000  2,3,4        111/0  rpcbind
+|   100000  2,3,4        111/tcp  rpcbind
+|   100000  2,3,4        111/udp  rpcbind
+|   100024  1          32768/udp  status
+|_  100024  1          50668/tcp  status
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.70%E=4%D=2/13%OT=21%CT=1%CU=37547%PV=Y%DS=2%DC=T%G=Y%TM=5C64907
+OS:5%P=i686-pc-linux-gnu)SEQ(SP=CA%GCD=1%ISR=CF%TI=Z%CI=RD%TS=A)OPS(O1=M564
+OS:ST11NW5%O2=M564ST11NW5%O3=M564NNT11NW5%O4=M564ST11NW5%O5=M564ST11NW5%O6=
+OS:M564ST11)WIN(W1=16A0%W2=16A0%W3=16A0%W4=16A0%W5=16A0%W6=16A0)ECN(R=Y%DF=
+OS:Y%T=40%W=16D0%O=M564NNSNW5%CC=N%Q=)T1(R=Y%DF=Y%T=40%S=O%A=S+%F=AS%RD=0%Q
+OS:=)T2(R=Y%DF=N%T=100%W=80%S=Z%A=S%F=AR%O=%RD=0%Q=)T3(R=Y%DF=N%T=100%W=100
+OS:%S=Z%A=S+%F=AR%O=%RD=0%Q=)T4(R=Y%DF=N%T=100%W=400%S=A%A=S%F=AR%O=%RD=0%Q
+OS:=)T5(R=Y%DF=Y%T=40%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=N%T=100%W=8000
+OS:%S=A%A=S%F=AR%O=%RD=0%Q=)T7(R=Y%DF=N%T=100%W=FFFF%S=Z%A=S+%F=AR%O=%RD=0%
+OS:Q=)U1(R=Y%DF=N%T=40%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(R=
+OS:N)
+
+Uptime guess: 3.308 days (since Sun Feb 10 09:24:38 2019)
+Network Distance: 2 hops
+TCP Sequence Prediction: Difficulty=204 (Good luck!)
+IP ID Sequence Generation: All zeros
+Service Info: OS: Unix
+
+
+Nmap scan report for 192.168.3.1
+Host is up (0.00064s latency).
+Not shown: 997 filtered ports
+PORT     STATE  SERVICE VERSION
+22/tcp   open   ssh     OpenSSH 6.1 (protocol 2.0)
+| ssh-hostkey: 
+|   1024 1b:30:ca:07:e2:ad:55:4d:23:41:d2:05:99:50:e0:d5 (DSA)
+|_  2048 31:ac:5a:19:52:d8:c4:d5:dc:1a:86:31:1b:c8:3d:f7 (RSA)
+80/tcp   open   http    Apache httpd 2.4.4 ((Fedora) PHP/5.4.12)
+|_http-favicon: Unknown favicon MD5: 27765384225F74776A03D24FFD879027
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: Apache/2.4.4 (Fedora) PHP/5.4.12
+|_http-title: Mullins Movies, Music and Machines Inc (M4I) - Movie Division
+1900/tcp closed upnp
+Device type: general purpose|storage-misc|WAP|load balancer|router
+Running (JUST GUESSING): Linux 2.6.X (95%), Netgear embedded (95%), Ubiquiti embedded (91%), F5 Networks embedded (90%), Linksys embedded (90%), Synology embedded (89%), F5 Networks TMOS 11.1.X (89%)
+OS CPE: cpe:/o:linux:linux_kernel:2.6.32 cpe:/o:linux:linux_kernel:2.6 cpe:/h:netgear:readynas_3200 cpe:/h:linksys:befw11s4 cpe:/h:synology:rt1900ac cpe:/o:f5:tmos:11.1 cpe:/o:linux:linux_kernel
+Aggressive OS guesses: Linux 2.6.32 (95%), Netgear ReadyNAS 3200 NAS device (Linux 2.6) (95%), Linux 2.6.11 - 2.6.18 (91%), Ubiquiti WAP (Linux 2.6.32) (91%), F5 BIG-IP load balancer (90%), Linksys BEFW11S4 WAP (90%), Synology RT1900ac router (89%), F5 3600 LTM load balancer (89%), HP P2000 MSA storage controller (87%), Netgear WNDAP660 WAP (Linux 2.6.36) (86%)
+No exact OS matches for host (test conditions non-ideal).
+Uptime guess: 3.353 days (since Sun Feb 10 10:34:22 2019)
+Network Distance: 3 hops
+TCP Sequence Prediction: Difficulty=260 (Good luck!)
+IP ID Sequence Generation: All zeros
+
+TRACEROUTE (using port 1900/tcp)
+HOP RTT     ADDRESS
+-   Hops 1-2 are the same as for 192.168.3.2
+3   0.83 ms 192.168.3.1
+TRACEROUTE (using port 993/tcp)
+HOP RTT     ADDRESS
+1   1.07 ms 10.1.8.254
+2   1.33 ms 192.168.2.101
+
+Nmap scan report for 192.168.3.101
+Host is up (0.00053s latency).
+Not shown: 990 closed ports
+PORT      STATE SERVICE      VERSION
+22/tcp    open  ssh          APC AOS cryptlib sshd (protocol 2.0)
+| ssh-hostkey: 
+|_  1024 37:e5:23:74:af:95:fd:69:13:81:c0:b8:51:ae:c1:f6 (RSA)
+135/tcp   open  msrpc        Microsoft Windows RPC
+139/tcp   open  netbios-ssn  Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds Windows 7 Enterprise 7601 Service Pack 1 microsoft-ds (workgroup: M4I)
+49152/tcp open  msrpc        Microsoft Windows RPC
+49153/tcp open  msrpc        Microsoft Windows RPC
+49154/tcp open  msrpc        Microsoft Windows RPC
+49155/tcp open  msrpc        Microsoft Windows RPC
+49156/tcp open  msrpc        Microsoft Windows RPC
+49158/tcp open  msrpc        Microsoft Windows RPC
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.70%E=4%D=2/13%OT=22%CT=1%CU=41121%PV=Y%DS=3%DC=T%G=Y%TM=5C64B33
+OS:A%P=i686-pc-linux-gnu)SEQ(SP=103%GCD=1%ISR=106%TI=I%CI=RD%TS=7)OPS(O1=M5
+OS:64NW8ST11%O2=M564NW8ST11%O3=M564NW8NNT11%O4=M564NW8ST11%O5=M564NW8ST11%O
+OS:6=M564ST11)WIN(W1=2000%W2=2000%W3=2000%W4=2000%W5=2000%W6=2000)ECN(R=Y%D
+OS:F=Y%T=80%W=2000%O=M564NW8NNS%CC=N%Q=)T1(R=Y%DF=Y%T=80%S=O%A=S+%F=AS%RD=0
+OS:%Q=)T2(R=Y%DF=N%T=101%W=80%S=Z%A=S%F=AR%O=%RD=0%Q=)T3(R=Y%DF=N%T=101%W=1
+OS:00%S=Z%A=S+%F=AR%O=%RD=0%Q=)T4(R=Y%DF=N%T=101%W=400%S=A%A=S%F=AR%O=%RD=0
+OS:%Q=)T5(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=N%T=101%W=80
+OS:00%S=A%A=S%F=AR%O=%RD=0%Q=)T7(R=Y%DF=N%T=101%W=FFFF%S=Z%A=S+%F=AR%O=%RD=
+OS:0%Q=)U1(R=Y%DF=N%T=80%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(
+OS:R=N)
+
+Uptime guess: 7.475 days (since Wed Feb  6 07:51:58 2019)
+Network Distance: 3 hops
+TCP Sequence Prediction: Difficulty=259 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: Host: MILITARY1; OSs: AOS, Windows; CPE: cpe:/o:apc:aos, cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: 1h40m00s, deviation: 2h53m13s, median: 0s
+| smb-os-discovery: 
+|   OS: Windows 7 Enterprise 7601 Service Pack 1 (Windows 7 Enterprise 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_7::sp1
+|   Computer name: Military1
+|   NetBIOS computer name: MILITARY1\x00
+|   Workgroup: M4I\x00
+|_  System time: 2019-02-13T19:14:13-05:00
+| smb-security-mode: 
+|   account_used: <blank>
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2019-02-13 19:14:18
+|_  start_date: 2019-02-02 10:28:59
+
+TRACEROUTE (using port 993/tcp)
+HOP RTT     ADDRESS
+1   1.03 ms 10.1.8.254
+2   0.85 ms 192.168.2.254
+3   0.73 ms 192.168.3.101
+
+
+Nmap scan report for 192.168.3.201
+Host is up (0.00058s latency).
+Not shown: 990 closed ports
+PORT      STATE SERVICE      VERSION
+22/tcp    open  ssh          APC AOS cryptlib sshd (protocol 2.0)
+| ssh-hostkey: 
+|_  1024 a7:28:e6:9e:42:bc:67:ac:3c:cb:c6:2c:cf:3b:38:40 (RSA)
+135/tcp   open  msrpc        Microsoft Windows RPC
+139/tcp   open  netbios-ssn  Microsoft Windows netbios-ssn
+445/tcp   open  microsoft-ds Windows 7 Enterprise 7601 Service Pack 1 microsoft-ds (workgroup: M4I)
+49152/tcp open  msrpc        Microsoft Windows RPC
+49153/tcp open  msrpc        Microsoft Windows RPC
+49154/tcp open  msrpc        Microsoft Windows RPC
+49155/tcp open  msrpc        Microsoft Windows RPC
+49157/tcp open  msrpc        Microsoft Windows RPC
+49158/tcp open  msrpc        Microsoft Windows RPC
+No exact OS matches for host (If you know what OS is running on it, see https://nmap.org/submit/ ).
+TCP/IP fingerprint:
+OS:SCAN(V=7.70%E=4%D=2/13%OT=22%CT=1%CU=39885%PV=Y%DS=3%DC=T%G=Y%TM=5C64D16
+OS:E%P=i686-pc-linux-gnu)SEQ(SP=105%GCD=1%ISR=10A%TI=I%CI=RD%TS=7)OPS(O1=M5
+OS:64NW8ST11%O2=M564NW8ST11%O3=M564NW8NNT11%O4=M564NW8ST11%O5=M564NW8ST11%O
+OS:6=M564ST11)WIN(W1=2000%W2=2000%W3=2000%W4=2000%W5=2000%W6=2000)ECN(R=Y%D
+OS:F=Y%T=80%W=2000%O=M564NW8NNS%CC=N%Q=)T1(R=Y%DF=Y%T=80%S=O%A=S+%F=AS%RD=0
+OS:%Q=)T2(R=Y%DF=N%T=101%W=80%S=Z%A=S%F=AR%O=%RD=0%Q=)T3(R=Y%DF=N%T=101%W=1
+OS:00%S=Z%A=S+%F=AR%O=%RD=0%Q=)T4(R=Y%DF=N%T=101%W=400%S=A%A=S%F=AR%O=%RD=0
+OS:%Q=)T5(R=Y%DF=Y%T=80%W=0%S=Z%A=S+%F=AR%O=%RD=0%Q=)T6(R=Y%DF=N%T=101%W=80
+OS:00%S=A%A=S%F=AR%O=%RD=0%Q=)T7(R=Y%DF=N%T=101%W=FFFF%S=Z%A=S+%F=AR%O=%RD=
+OS:0%Q=)U1(R=Y%DF=N%T=80%IPL=164%UN=0%RIPL=G%RID=G%RIPCK=G%RUCK=G%RUD=G)IE(
+OS:R=N)
+
+Uptime guess: 3.562 days (since Sun Feb 10 07:55:14 2019)
+Network Distance: 3 hops
+TCP Sequence Prediction: Difficulty=261 (Good luck!)
+IP ID Sequence Generation: Incremental
+Service Info: Host: MITNICK1; OSs: AOS, Windows; CPE: cpe:/o:apc:aos, cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: 1h40m01s, deviation: 2h53m15s, median: 0s
+| smb-os-discovery: 
+|   OS: Windows 7 Enterprise 7601 Service Pack 1 (Windows 7 Enterprise 6.1)
+|   OS CPE: cpe:/o:microsoft:windows_7::sp1
+|   Computer name: Mitnick1
+|   NetBIOS computer name: MITNICK1\x00
+|   Workgroup: M4I\x00
+|_  System time: 2019-02-13T21:23:19-05:00
+| smb-security-mode: 
+|   account_used: <blank>
+|   authentication_level: user
+|   challenge_response: supported
+|_  message_signing: disabled (dangerous, but default)
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2019-02-13 21:23:15
+|_  start_date: 2019-02-04 11:18:44
+
+TRACEROUTE (using port 993/tcp)
+HOP RTT     ADDRESS
+1   1.00 ms 10.1.8.254
+2   1.12 ms 192.168.2.254
+3   1.13 ms 192.168.3.201
+
+
+
+
