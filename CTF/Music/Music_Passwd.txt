@@ -1,0 +1,4 @@
+root:x:0:0:root:/root:/bin/bash
+doors:x:1001:1001::/home/doors:/bin/bash
+pinkfloyd:x:1004:1004::/home/pinkfloyd:/bin/bash
+penny:x:1005:1005:Penny:/home/Penny:/bin/bash

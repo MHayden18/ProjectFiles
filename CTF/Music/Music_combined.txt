@@ -1,0 +1,4 @@
+root:$1$TKPtde8D$ZO8S21w0hqSb//ScDpILw.:0:0:root:/root:/bin/bash
+doors:$6$/aj3L0ZekGRpOdFy$0I4oIxosCSRUS4qp/mrWJl85kiK/46hIJthiw5KghDCV/d08vCK0lKtSDvGt1bXE6RZA8RD/o2yjCL8Pje9SC1:1001:1001::/home/doors:/bin/bash
+pinkfloyd:$6$ANZQcdMDklNg8kgH$dMOfDa.1iIztohS4gawbkOIzcY1qizFMpVWR4D4i.USBmiBdxPN.CjgespoXGLJeRY28mZzNAtLRPps3isE6Y1:1004:1004::/home/pinkfloyd:/bin/bash
+penny:$1$PoxtMhZc$iVhOTW5f88mOi3i5eRXYF1:1005:1005:Penny:/home/Penny:/bin/bash
