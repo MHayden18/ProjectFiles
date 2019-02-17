@@ -57,6 +57,7 @@ General Notes: 13 February
 	-192.168.3.201 - M4I Mitnick
 	
 	
+root: pw - 4e656275636861646e657a7a6172 --> Nebuchadnezzar in Hex (root for Movie)
 	
 	
 	
