@@ -1,0 +1,5 @@
+root:$1$m33YqUcm$dabsa7V7cz2ykLpikGjxu1:0:0:root:/root:/bin/bash
+matrix:$1$TrV3BF1Y$XmJ23HjvUiWJ5xlHOyFOn1:1001:1001::/home/matrix:/bin/bash
+trinity:$1$4.I921h8$zLeJdV.snLAeQux8X9jhp0:1002:1002::/home/trinity:/bin/bash                                                                            
+switch:$1$cRFEbqiC$KP8I/Ezb9lz/C2FJuKNio1:1004:1004::/home/switch:/bin/bash
+neo:$1$h.SoLDAz$pu258aiCU4wXlWrOZBivY/:1005:1005::/home/neo:/bin/bash 
