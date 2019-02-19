@@ -1,0 +1,80 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+  <title>Mullins Movies, Music and Machines Inc (M4I)</title>
+  <link rel="shortcut icon" href="favicon.ico" >
+   <link rel="icon" type="image/gif" href="favicon.ico" >
+<noscript>
+<strong><font color="red">Javascript Disabled Detected</font></strong><br>
+<strong><font color="red">You currently have javascript disabled. Several functions may not work. Please re-enable javascript to access full functionality.</font></strong>
+<br />
+</noscript><script type="text/javascript">
+<!--
+var image1=new Image()
+image1.src="img1.jpg"
+var image2=new Image()
+image2.src="img2.jpg"
+var image3=new Image()
+image3.src="img3.jpg"
+var image4=new Image()
+image4.src="img4.jpg"
+var image5=new Image()
+image5.src="img5.jpg"
+var image6=new Image()
+image6.src="img6.jpg"
+var image7=new Image()
+image7.src="img7.jpg"
+var image8=new Image()
+image8.src="img8.jpg"
+var image9=new Image()
+image9.src="img9.jpg"
+var image10=new Image()
+image10.src="img10.jpg"
+var image11=new Image()
+image11.src="img11.jpg"
+var image12=new Image()
+image12.src="img12.jpg"
+var image13=new Image()
+image13.src="img13.jpg"
+var image14=new Image()
+image14.src="img14.jpg"
+var image15=new Image()
+image15.src="img15.jpg"
+var image16=new Image()
+image16.src="img16.jpg"
+var image17=new Image()
+image17.src="img17.jpg"
+//-->
+</script>
+</head>
+<body bgcolor="black" text="green3">
+<img src="img1.jpg" name="slide"  width=1200 height=800>
+<script>
+<!--
+//variable that will increment through the images
+var step=1
+function slideit(){
+//if browser does not support the image object, exit.
+if (!document.images)
+   return
+document.images.slide.src=eval("image"+step+".src")
+if (step<16)
+   step++
+else
+   step=17
+//call function "slideit()" every 0.2 seconds
+if (step==14)
+	setTimeout("slideit()", 2500)
+else
+	setTimeout("slideit()",(0.5+Math.random())*200)
+}
+slideit()
+//-->
+</script>
+<br>
+<a href="./authenticate.html"><img align="left" src="./pi-white.jpg" width=20 height=20></a>
+
+</body>
+</html>
+
+
