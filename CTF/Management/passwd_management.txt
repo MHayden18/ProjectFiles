@@ -1,0 +1,5 @@
+root:x:0:0:root:/root:/bin/bash
+leonard:x:504:504::/home/leonard:/bin/bash
+angelabennett:x:505:505::/home/angelabennett:/bin/bash
+biff:x:507:507:Biff:/home/biff:/bin/bash
+GraceHopper:x:508:508::/home/GraceHopper:/bin/bash
