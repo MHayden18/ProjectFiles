@@ -1,0 +1,5 @@
+root:$1$hSZVka.6$ch9hEwehyV7DaFxlRSPDy0:16099:0:99999:7:::
+leonard:$1$CrcksVrI$zAH0CuPv8LwaRoUAOGzdt0:15545:0:99999:7:::
+angelabennett:$1$Qy7tvls7$Oe5JXvh3x9wvJScWx1Rmh.:16099:0:99999:7:::
+biff:$1$t1QVfY23$GnmU0gYH7r/NO5VHdyO2R.:16428:0:99999:7:::
+GraceHopper:$1$7ft20D9D$zLV9GbG33Lcl4NMNdYW1R1:17201:0:99999:7:::
