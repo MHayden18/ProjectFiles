@@ -1,0 +1,13 @@
+root:$1$TKPtde8D$ZO8S21w0hqSb//ScDpILw.:0:0:root:/root:/bin/bash
+doors:$6$/aj3L0ZekGRpOdFy$0I4oIxosCSRUS4qp/mrWJl85kiK/46hIJthiw5KghDCV/d08vCK0lKtSDvGt1bXE6RZA8RD/o2yjCL8Pje9SC1:1001:1001::/home/doors:/bin/bash
+pinkfloyd:$6$ANZQcdMDklNg8kgH$dMOfDa.1iIztohS4gawbkOIzcY1qizFMpVWR4D4i.USBmiBdxPN.CjgespoXGLJeRY28mZzNAtLRPps3isE6Y1:1004:1004::/home/pinkfloyd:/bin/bash
+penny:$1$PoxtMhZc$iVhOTW5f88mOi3i5eRXYF1:1005:1005:Penny:/home/Penny:/bin/bash
+root:$1$m33YqUcm$dabsa7V7cz2ykLpikGjxu1:0:0:root:/root:/bin/bash
+matrix:$1$TrV3BF1Y$XmJ23HjvUiWJ5xlHOyFOn1:1001:1001::/home/matrix:/bin/bash
+trinity:$1$4.I921h8$zLeJdV.snLAeQux8X9jhp0:1002:1002::/home/trinity:/bin/bash                                                                            
+switch:$1$cRFEbqiC$KP8I/Ezb9lz/C2FJuKNio1:1004:1004::/home/switch:/bin/bash
+neo:$1$h.SoLDAz$pu258aiCU4wXlWrOZBivY/:1005:1005::/home/neo:/bin/bash 
+leonard:$1$CrcksVrI$zAH0CuPv8LwaRoUAOGzdt0:504:504::/home/leonard:/bin/bash
+angelabennett:$1$Qy7tvls7$Oe5JXvh3x9wvJScWx1Rmh.:505:505::/home/angelabennett:/bin/bash
+biff:$1$t1QVfY23$GnmU0gYH7r/NO5VHdyO2R.:507:507:Biff:/home/biff:/bin/bash
+GraceHopper:$1$7ft20D9D$zLV9GbG33Lcl4NMNdYW1R1:508:508::/home/GraceHopper:/bin/bash
